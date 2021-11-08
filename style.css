@@ -1,0 +1,69 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* variables */
+:root {
+    --main-color: #c59d5f;
+    --grey-color: hsl(210, 36%, 96%);
+    --main-font: "Roboto",
+        sans-serif;
+}
+
+/* global */
+body {
+    background-color: var(--grey-color);
+    font-family: var(--main-font);
+}
+
+.underline {
+    border: 2px solid var(--main-color);
+    text-align: center;
+    margin: auto;
+    width: 5rem;
+}
+
+/* section menu */
+section.menu {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    margin: 4.65rem auto;
+}
+
+.title h2 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #102a42;
+}
+
+.btns {
+    margin: 2rem 0;
+}
+
+.filter-btn {
+    border: 2px solid var(--main-color);
+    border-bottom: 2px solid #28425a;
+    border-right: 2px solid #2d4257;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-transform: capitalize;
+    color: var(--main-color);
+    margin-right: 1rem;
+    padding: 3px 12px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+
+.filter-btn:hover {
+    background-color: var(--main-color);
+    color: #FFF;
+}
